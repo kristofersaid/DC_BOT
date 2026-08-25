@@ -66,8 +66,17 @@ cd DC_BOT
 4. Wklej token do pola `token` w pliku `main_config.json` albo użyj przycisku
 	**Update Token** w aplikacji.
 
-Token można wyświetlić i skopiować tylko z panelu bota. Traktuj go jak hasło:
-nie publikuj go, nie wysyłaj innym osobom i po ujawnieniu natychmiast zresetuj.
+Token bota traktuj jak hasło: nie publikuj go, nie wysyłaj innym osobom i po
+ujawnieniu natychmiast zresetuj.
+
+### Prywatny token konta użytkownika
+
+Nie używaj prywatnego tokena swojego konta w tym projekcie. Pozyskiwanie go z
+przeglądarki, w tym przez narzędzia deweloperskie i zakładkę Network, może
+doprowadzić do przejęcia konta. Automatyzacja konta użytkownika jest również
+niezgodna z zasadami Discorda i może skutkować blokadą konta. Dokumentacja nie
+zawiera instrukcji pozyskania takiego tokena. Używaj wyłącznie tokena bota z
+ograniczonymi uprawnieniami.
 
 ## Konfiguracja
 
