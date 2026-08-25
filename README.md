@@ -78,9 +78,17 @@ cd DC_BOT
 > - Prywatny token daje **pełny dostęp do Twojego konta** (Twoich prywatnych wiadomości, serwerów i danych).
 > - Korzystasz z tej metody **wyłącznie na własne ryzyko i odpowiedzialność**.
 
-Nie podajemy instrukcji pozyskiwania prywatnego tokena z przeglądarki. Jeśli
-token został ujawniony, natychmiast zmień hasło konta i skontaktuj się ze
-wsparciem Discorda. Używaj wyłącznie oficjalnego tokena bota.
+#### Instrukcja pozyskania tokena przez przeglądarkę:
+
+1. Otwórz przeglądarkę (np. Chrome, Edge, Brave) i zaloguj się na [Discord Web](https://discord.com/app).
+2. Wciśnij klawisz `F12` (lub skrót `Ctrl + Shift + I`), aby otworzyć **Narzędzia Deweloperskie**.
+3. W górnym pasku narzędzi deweloperskich przejdź do zakładki **Network** (Sieć).
+4. Kliknij dowolny kanał lub wyślij gdzieś wiadomość, aby przeglądarka wysłała zapytanie.
+5. W polu filtra (Filter/Szukaj) wpisz `messages` lub `/api`.
+6. Kliknij dowolne zapytanie na liście po lewej stronie.
+7. W sekcji po prawej stronie wybierz zakładkę **Headers** (Nagłówki) i zjedź w dół do sekcji **Request Headers** (Nagłówki żądania).
+8. Odszukaj pozycję **`authorization`**.
+9. Ciąg znaków znajdujący się obok to Twój prywatny token konta.
 
 ---
 
@@ -123,8 +131,7 @@ artefaktem pracy i nie jest wysyłany do repozytorium.
 ## Zasady bezpieczeństwa
 
 Token Discorda jest poświadczeniem dostępu. Jeśli token został ujawniony,
-natychmiast go unieważnij (w przypadku konta prywatnego zrób to poprzez zmianę
-hasła do konta). Pobieraj materiały wyłącznie z
+natychmiast go unieważnij (w przypadku konta prywatnego zrób to poprzez zmianę hasła do konta). Pobieraj materiały wyłącznie z
 kanałów, do których masz uprawnienia, i przestrzegaj regulaminu Discorda oraz
 praw autorskich.
 
