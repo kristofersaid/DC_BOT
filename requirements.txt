@@ -1,0 +1,11 @@
+# AniFun AI + Discord Media Downloader
+# Python dependencies
+
+# HTTP requests
+requests>=2.31.0
+
+# Image processing
+Pillow>=10.0.0
+
+# Encryption (AniFun API)
+pycryptodome>=3.19.0

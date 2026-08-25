@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.py[cod]
+
+# Local credentials and runtime configuration
+main_config.json
+
+# Downloaded/generated media
+OUTPUT/
