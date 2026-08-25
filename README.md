@@ -55,6 +55,20 @@ cd DC_BOT
 .\venv\Scripts\Activate.ps1
 ```
 
+## Token Discorda
+
+1. Otwórz [Discord Developer Portal](https://discord.com/developers/applications)
+	i utwórz aplikację.
+2. W zakładce **Bot** utwórz bota, wybierz **Reset Token**, a następnie skopiuj
+	nowy token.
+3. Dodaj bota do serwera i nadaj mu w kanale co najmniej uprawnienia **View
+	Channel** oraz **Read Message History**.
+4. Wklej token do pola `token` w pliku `main_config.json` albo użyj przycisku
+	**Update Token** w aplikacji.
+
+Token można wyświetlić i skopiować tylko z panelu bota. Traktuj go jak hasło:
+nie publikuj go, nie wysyłaj innym osobom i po ujawnieniu natychmiast zresetuj.
+
 ## Konfiguracja
 
 Utwórz w katalogu projektu plik `main_config.json`:
