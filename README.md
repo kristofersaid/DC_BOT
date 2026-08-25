@@ -18,7 +18,7 @@ pobrane pliki w katalogu `OUTPUT/`.
 - Python 3.10 lub nowszy,
 - konto Discord z dostępem do kanału, z którego mają być pobierane pliki.
 
-## Instalacja
+## Instalacja z venv
 
 1. Sklonuj repozytorium i przejdź do katalogu projektu:
 
@@ -46,6 +46,14 @@ pobrane pliki w katalogu `OUTPUT/`.
 	python -m pip install --upgrade pip
 	pip install -r requirements.txt
 	```
+
+Po instalacji środowisko `venv` pozostaje aktywne w bieżącym terminalu. Przy
+kolejnym uruchomieniu projektu przejdź do jego katalogu i ponownie aktywuj je:
+
+```powershell
+cd DC_BOT
+.\venv\Scripts\Activate.ps1
+```
 
 ## Konfiguracja
 
@@ -89,3 +97,9 @@ Token Discorda jest poświadczeniem dostępu. Jeśli token został ujawniony,
 natychmiast go unieważnij i wygeneruj nowy. Pobieraj materiały wyłącznie z
 kanałów, do których masz uprawnienia, i przestrzegaj regulaminu Discorda oraz
 praw autorskich.
+
+## Usuwanie projektu
+
+Aby usunąć projekt, wystarczy usunąć cały folder `DC_BOT`. Usunięte zostaną
+również środowisko `venv`, lokalna konfiguracja `main_config.json` oraz pobrane
+pliki z katalogu `OUTPUT/`.
