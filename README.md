@@ -57,6 +57,8 @@ cd DC_BOT
 
 ## Token Discorda
 
+### 1. Oficjalny token bota (Zalecane)
+
 1. Otwórz [Discord Developer Portal](https://discord.com/developers/applications)
 	i utwórz aplikację.
 2. W zakładce **Bot** utwórz bota, wybierz **Reset Token**, a następnie skopiuj
@@ -66,17 +68,21 @@ cd DC_BOT
 4. Wklej token do pola `token` w pliku `main_config.json` albo użyj przycisku
 	**Update Token** w aplikacji.
 
-Token bota traktuj jak hasło: nie publikuj go, nie wysyłaj innym osobom i po
-ujawnieniu natychmiast zresetuj.
+---
 
-### Prywatny token konta użytkownika
+### 2. Prywatny token konta użytkownika (BARDZO NIEBEZPIECZNE / NIEZALECANE)
 
-Nie używaj prywatnego tokena swojego konta w tym projekcie. Pozyskiwanie go z
-przeglądarki, w tym przez narzędzia deweloperskie i zakładkę Network, może
-doprowadzić do przejęcia konta. Automatyzacja konta użytkownika jest również
-niezgodna z zasadami Discorda i może skutkować blokadą konta. Dokumentacja nie
-zawiera instrukcji pozyskania takiego tokena. Używaj wyłącznie tokena bota z
-ograniczonymi uprawnieniami.
+> ⚠️ **BARDZO WAŻNE OSTRZEŻENIE:**
+> - Używanie prywatnego tokena konta do automatyzacji (tzw. *self-botting*) jest **bezpośrednim złamaniem Regulaminu Discorda (Discord Terms of Service)**.
+> - Wykrycie takiego działania może skończyć się **natychmiastową i trwałą blokadą konta (banem)**.
+> - Prywatny token daje **pełny dostęp do Twojego konta** (Twoich prywatnych wiadomości, serwerów i danych).
+> - Korzystasz z tej metody **wyłącznie na własne ryzyko i odpowiedzialność**.
+
+Nie podajemy instrukcji pozyskiwania prywatnego tokena z przeglądarki. Jeśli
+token został ujawniony, natychmiast zmień hasło konta i skontaktuj się ze
+wsparciem Discorda. Używaj wyłącznie oficjalnego tokena bota.
+
+---
 
 ## Konfiguracja
 
@@ -117,7 +123,8 @@ artefaktem pracy i nie jest wysyłany do repozytorium.
 ## Zasady bezpieczeństwa
 
 Token Discorda jest poświadczeniem dostępu. Jeśli token został ujawniony,
-natychmiast go unieważnij i wygeneruj nowy. Pobieraj materiały wyłącznie z
+natychmiast go unieważnij (w przypadku konta prywatnego zrób to poprzez zmianę
+hasła do konta). Pobieraj materiały wyłącznie z
 kanałów, do których masz uprawnienia, i przestrzegaj regulaminu Discorda oraz
 praw autorskich.
 
